@@ -642,9 +642,9 @@ html {font-size: 62.5%;}
 
 .bottomFooter {
   margin: 0 auto;
-  padding: 0rem 0rem 0rem 0rem;
+  padding: 0;
   &__copyright {
-    padding: 2rem 0 2rem 0rem;
+    padding: 2rem 0;
     margin: 0;
     &--txt {
       @include fontMontserrat(400,1.4rem);
@@ -656,9 +656,8 @@ html {font-size: 62.5%;}
     width: 4.4rem;
     height: 4.3rem;
     @include border-radius(50%);
-
-    &--txt {
-      margin: 0 1.5rem;
+    &--img {
+      margin-left: 1.4rem;
     }
   }
 
